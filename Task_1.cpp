@@ -1,15 +1,27 @@
 #include <iostream>
+#include <math.h>
+using namespace std;
 
-using namespace std ;
+int main() {
+    setlocale(LC_ALL, "rus"); 
+    bool L, A, B, C;
+    float x, y;
+    int k; 
+    float pi = 3.14;
 
-int main () {
+    cout << "Введите x \n> ";
+    cin >> x;
+    cout << "Введите y \n> "; 
+    cin >> y; 
+    cout << "Введите k \n> ";
+    cin >> k;
 
-    bool L,A,B,C ;
-    A = true;
-    B = false ;
-    C = true ;
-    L = (!(A==(!B))&& C)||(B&&B);
+    A = (x+2*y<=2);
+    B = (5%k==0);
+    C = pow(2.71, 2 * pi * k);
+    L = (!(A == (!B)) && C) || (B && B);
 
-    cout << L ;
-    return 0 ;
+    if (L == 0)cout << "FALSE (0)";
+    else cout << "TRUE (1)"; 
+    return 0;
 }
