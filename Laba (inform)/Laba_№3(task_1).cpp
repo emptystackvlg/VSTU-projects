@@ -10,10 +10,9 @@ int main()
 	cin >> x; 
 	cout << "\nВведите число k \n> ";
 	cin >> k; 
-	n = 1;
 	full_product = 1;
 
-	for (n; n <= k; n++) 
+	for (n = 1; n <= k; n++) 
 	{
 		full_product *= ((n / 2) + x); 
 		cout << "\nПри n = " << n << "\t P = " << full_product; 	
