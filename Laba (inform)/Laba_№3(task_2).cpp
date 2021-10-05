@@ -14,11 +14,11 @@ int main()
 		expression = x*x*x - 2*x*x - x + 2;
 		if (expression == 0) {
 			func = A * 1;
-			cout << "\nПри x = " << x << "\tf(x) = " << func << "\t\n";
+			cout << "\nПри x = " << x << "\tf(x) = " << func << "\n";
 		}
 		else if (1 >= expression >= -1) {
 			func = A * (sin(expression) / expression);
-			cout << "\nПри x = " << x << "\tf(x) = " << func << "\t\n";
+			cout << "\nПри x = " << x << "\tf(x) = " << func << "\n";
 		}
 		else cout << "Ошибка";
 		
