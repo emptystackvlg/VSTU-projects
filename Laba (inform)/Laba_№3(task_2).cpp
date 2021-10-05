@@ -3,8 +3,7 @@
 using namespace std;
 
 int main()
-{
-	setlocale(LC_ALL, "rus");
+{	setlocale(LC_ALL, "rus");
 	float func, A, x, expression;					// expression - выражение в знаменателе дроби и аргументе sin
 
 	cout << "\nВведите число A\n> ";
