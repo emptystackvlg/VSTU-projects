@@ -19,7 +19,6 @@ int main()
 		cout << "\nПри n = " << n << "\t P = " << prod << "\n";
 		n++; 
 	}
-	cout << "\n";
 
 	system("pause");
 	return 0;
