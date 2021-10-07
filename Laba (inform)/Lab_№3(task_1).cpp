@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	float x, n, k,prod;   // full_product - произведение
+	float x, n, k,prod;   //prod - произведение
 
 	cout << "\n Введите число x\n> ";
 	cin >> x;
