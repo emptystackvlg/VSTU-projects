@@ -13,7 +13,7 @@ int main()
 	n = 1; 
 	prod = 1;
 
-	while (n < k)
+	while (n <= k)
 	{
 		prod *= ((n / 2) + x);
 		cout << "\nПри n = " << n << "\t P = " << prod << "\n";
