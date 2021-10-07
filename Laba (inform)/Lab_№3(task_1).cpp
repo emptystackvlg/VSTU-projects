@@ -18,7 +18,7 @@ int main()
 		prod *= ((n / 2) + x);
 		cout << "\nПри n = " << n << "\t P = " << prod << "\n";
 	}
-
+	cout << "\n" ; 
 	system("pause");
 	return 0;
 }
