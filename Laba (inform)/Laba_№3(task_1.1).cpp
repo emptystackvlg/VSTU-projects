@@ -10,8 +10,10 @@ int main()
 	cin >> x;
 	cout << "\nВведите число k \n> ";
 	cin >> k;
-	n = 1; 
+	
 	prod = 1;
+	n = 1; 
+	
 
 	while (n <= k)
 	{
